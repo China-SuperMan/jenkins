@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinsController {
 
-    @RequestMapping("aaa")
+    @RequestMapping("a")
     public String aaa(){
-        return  "hello jenkins 测试就Jenkins持续集成！";
+        return  "hello jenkins 测试Jenkins持续集成！";
     }
 }
